@@ -1,2 +1,3 @@
 # ELECTROSHOPPING
-An pizza ordering web which is helpful for user to order some food by online to there home . 
+An SHOPPING website where there are various kinds of electronic items and another gratefull items to shop online with payment gateways to easier there life style . 
+
