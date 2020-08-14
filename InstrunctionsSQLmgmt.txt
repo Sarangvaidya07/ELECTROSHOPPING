@@ -1,0 +1,24 @@
+Dear All,
+I am sending mySql Server Management Console Project (Version 1). 
+You can show this project in ur college as it is or after some changes according to your requirement. 
+But if you will make some changes then only you would understand the code, so make changes in the project. 
+Rest I have not considered much the look and feel of the project so make it as per your need.
+
+
+This project has almost all basic functionalities like
+1. You can view your mysql Database in tree form
+2. 
+You can Create and delete database
+3. You can create and delete table
+4. 
+you can open table and show all records in tabular form
+5. 
+You can write custom query and execute it
+
+So make the changes and additions in the project according to your requirement, best of luck.
+
+
+Regards
+
+
+Anil Singh

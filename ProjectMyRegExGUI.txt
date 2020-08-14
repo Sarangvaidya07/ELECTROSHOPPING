@@ -1,0 +1,34 @@
+import re
+from tkinter import *
+def searchHandler():
+    pattern=varPattern.get()
+    message=varMessage.get()
+    r=re.findall(pattern,message)
+    result=", ".join(r)
+    varResult.set(result)
+root=Tk()
+#root.state("zoomed")
+root.geometry("325x300")
+root.title("My RegEx GUI")
+lblPattern=Label(root,text="Enter Pattern to Search:",font=14)
+lblPattern.grid(row=0,column=0)
+varPattern=StringVar()
+entryPattern=Entry(root,textvariable=varPattern,width=30,font=14)
+entryPattern.grid(row=1)
+
+lblMessage=Label(root,text="Enter Data to Search from:",font=14)
+lblMessage.grid(row=2,column=0)
+varMessage=StringVar()
+entryMessage=Entry(root,textvariable=varMessage,width=30,font=14)
+entryMessage.grid(row=3,column=0)
+
+lblResult=Label(root,text="Matched Patterns Are:",font=14)
+lblResult.grid(row=5,column=0)
+varResult=StringVar()
+entryResult=Entry(root,textvariable=varResult,width=30,font=14)
+entryResult.grid(row=6,column=0)
+
+btnSearch=Button(root,text="Search",command=searchHandler,font=12)
+btnSearch.grid(row=4,column=0,pady=10)
+
+root.mainloop()
